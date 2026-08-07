@@ -2,6 +2,8 @@
 
 ### Data & AI Engineer building useful, understandable and privacy-conscious products.
 
+**[Explore my portfolio](https://bocoum1.github.io/portfolio/)**
+
 I work across **data engineering, applied AI and product development**. I enjoy
 turning a real-world question into a complete system: data pipeline, retrieval or
 matching logic, API, interface and clear documentation.
@@ -31,6 +33,7 @@ matching logic, API, interface and clear documentation.
 ## Contact
 
 - Email: [bocoumoumar535@gmail.com](mailto:bocoumoumar535@gmail.com)
+- Portfolio: [bocoum1.github.io/portfolio](https://bocoum1.github.io/portfolio/)
 - GitHub: [@Bocoum1](https://github.com/Bocoum1)
 
 ---
