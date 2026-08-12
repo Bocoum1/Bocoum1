@@ -14,7 +14,7 @@ matching logic, API, interface and clear documentation.
 | --- | --- | --- |
 | [Local Hybrid RAG](https://github.com/Bocoum1/Retrieval-Augmented-Generation) | Ask questions about private documents while keeping generation local and citations inspectable | Python, FAISS, BM25, Ollama, Streamlit |
 | [UKRA](https://github.com/Bocoum1/UKRA) | Explore when, where and under which conditions road accidents occur | R, Shiny, Plotly, Leaflet |
-| **Atlas** | Help students discover relevant people for orientation, integration and opportunities | Next.js, FastAPI, PostgreSQL, Qdrant |
+| [MoreMovies](https://github.com/Bocoum1/moremovies) | Reconcile three heterogeneous systems into a shared data warehouse for sales and rental analysis | MySQL, Pentaho PDI, Mondrian, MDX, Power BI |
 
 ## What I care about
 
