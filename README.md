@@ -6,7 +6,7 @@
 
 I am a **second-year Master's student in Data Science and Statistical Modelling** at Université Bretagne Sud, with a background in mathematics and computer science.
 
-My focus is on understanding statistical methods, implementing them and evaluating what the results actually support. I also practise machine learning and deep learning with Python and PyTorch, including dense and convolutional networks on educational datasets.
+My focus is on understanding statistical methods, implementing them and evaluating what the results actually support. I compare tabular models and neural networks through explicit experimental protocols, and explore algorithms through pathfinding experiments.
 
 **Looking for a 4–6 month final-year internship starting in January 2027**, in data science, statistics or machine learning.
 
@@ -19,7 +19,29 @@ My focus is on understanding statistical methods, implementing them and evaluati
 
 Both are university projects coauthored with **Anya Levêque**. The repositories preserve the original work and add reproducibility checks, generated figures and explicit methodological limitations. Simulation results and in-sample fit are not presented as evidence of predictive generalisation.
 
-## Applied data projects
+## Machine learning and deep learning
+
+| Project | Question and evidence | Tools |
+| --- | --- | --- |
+| [MNIST: linear model, MLP and CNN](https://github.com/Bocoum1/Mnist) | Compare three architectures with a fixed train/validation/test split and three training seeds; inspect learning curves, confusion and errors | Python, PyTorch, scikit-learn |
+| [House Prices](https://github.com/Bocoum1/Kaggle/tree/main/house_prices) | Compare a constant baseline, Ridge, random forest and gradient boosting using five-fold CV; fit preprocessing within each fold and analyse held-out errors | Python, scikit-learn, pandas |
+
+The CNN reaches **98.32% mean accuracy on the internal test split** of Kaggle
+Digit Recognizer, not on an external evaluation or leaderboard. On House Prices,
+Ridge improves log-RMSE and MAE over the baseline, but a large extrapolation error
+worsens dollar RMSE and produces a negative R². The reports explain both the
+results and their limitations. Datasets and trained weights are not included.
+
+## Algorithms
+
+[Pathfinding Lab](https://github.com/Bocoum1/Pathfinding-Lab) compares BFS,
+Dijkstra, A*, greedy search and weighted A* on weighted grids. The
+[interactive demo](https://bocoum1.github.io/Pathfinding-Lab/) replays exploration
+traces computed in Julia, making path cost and search effort visible. My
+[original Pathfinding project](https://github.com/Bocoum1/Pathfinding) remains
+available separately.
+
+## Complementary applications
 
 | Project | Problem addressed | Stack |
 | --- | --- | --- |
@@ -33,6 +55,7 @@ These projects complement my statistical work with data preparation, visualisati
 
 - **Statistics:** inference, generalised linear models, nonparametric estimation, Monte-Carlo experiments.
 - **Machine learning & deep learning:** supervised learning, dense and convolutional neural networks, Python, PyTorch.
+- **Algorithms:** graph search, heuristics, path cost and exploration, Julia.
 - **Analysis and communication:** R, SQL, visualisation, Shiny, reproducible reports.
 - **Supporting engineering:** Git, automated checks, APIs and data pipelines.
 
