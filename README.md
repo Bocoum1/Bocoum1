@@ -34,12 +34,10 @@ results and their limitations. Datasets and trained weights are not included.
 
 ## Algorithms
 
-[Pathfinding Lab](https://github.com/Bocoum1/Pathfinding-Lab) compares BFS,
-Dijkstra, A*, greedy search and weighted A* on weighted grids. The
-[interactive demo](https://bocoum1.github.io/Pathfinding-Lab/) replays exploration
-traces computed in Julia, making path cost and search effort visible. My
-[original Pathfinding project](https://github.com/Bocoum1/Pathfinding) remains
-available separately.
+[Pathfinding](https://github.com/Bocoum1/Pathfinding) is my original Julia project
+implementing BFS, Dijkstra, A* and greedy search on grids loaded from text files.
+It explores obstacles, movement costs, priority queues and the Manhattan
+heuristic, with path reconstruction and counts of explored states.
 
 ## Complementary applications
 
